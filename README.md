@@ -1,4 +1,4 @@
-# Zynq-MMU-Caches-Control
+# Zynq MMU Caches Control
 
 A guide to controlling the Zynq Cortex A9 MMU / Caches
 ------------------------------------------------------
