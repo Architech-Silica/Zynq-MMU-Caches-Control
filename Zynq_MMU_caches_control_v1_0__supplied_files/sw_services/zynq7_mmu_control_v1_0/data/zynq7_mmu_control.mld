@@ -1,0 +1,14 @@
+OPTION psf_version = 2.1;
+
+BEGIN LIBRARY zynq7_mmu_control
+  OPTION drc = zynq7_mmu_control_drc;
+  OPTION copyfiles = all;
+  OPTION REQUIRES_OS = (standalone);
+  OPTION SUPPORTED_PERIPHERALS = (cortexa9);
+  OPTION APP_LINKER_FLAGS = "-Wl,--start-group,-lzynq7_mmu_control,-lxil,-lgcc,-lc,--end-group";
+  OPTION desc = "Zynq 7 MMU Control";
+  OPTION VERSION = 1.0;
+  OPTION NAME = zynq7_mmu_control;
+END LIBRARY
+
+
